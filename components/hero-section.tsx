@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
-import Link from "next/link";
-import { Logo } from "@/components/logo";
-import { ArrowRight, Menu, Rocket, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { InstagramIcon, Menu, Rocket, X } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { ThemeToggle } from "./theme-toggle";
 
 const menuItems = [
   { name: "Features", href: "#" },
@@ -31,7 +31,12 @@ export default function HeroSection() {
                   aria-label="home"
                   className="flex items-center space-x-2"
                 >
-                  <Logo />
+                  <Image
+                    src="/hero-section/nav-bar/logo.png"
+                    width={100}
+                    height={100}
+                    alt="logo"
+                  ></Image>
                 </Link>
 
                 <button
@@ -61,16 +66,7 @@ export default function HeroSection() {
                 </div>
 
                 <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
-                  <Button asChild variant="outline" size="sm">
-                    <Link href="#">
-                      <span>Login</span>
-                    </Link>
-                  </Button>
-                  <Button asChild size="sm">
-                    <Link href="#">
-                      <span>Login</span>
-                    </Link>
-                  </Button>
+                  <ThemeToggle />
                 </div>
               </div>
             </div>
@@ -86,9 +82,10 @@ export default function HeroSection() {
                   Ninho Infantil
                 </h1>
                 <p className="mx-auto mt-8 hidden max-w-2xl text-wrap text-lg sm:block">
-                  Tailwindcss highly customizable components for building modern
-                  websites and applications that look and feel the way you mean
-                  it.
+                  No Ninho Infantil, nossa missão é proporcionar experiências
+                  culturais enriquecedoras para as crianças. Estamos
+                  Comprometidos em criar um espaço seguro e interativo que
+                  estimule a criatividade e o aprendizado.
                 </p>
                 <p className="mx-auto mt-6 max-w-2xl text-wrap sm:hidden">
                   Highly customizable components for building modern websites
@@ -97,9 +94,9 @@ export default function HeroSection() {
 
                 <div className="mt-8">
                   <Button size="lg" asChild>
-                    <Link href="#">
-                      <Rocket className="relative size-4" />
-                      <span className="text-nowrap">Start Building</span>
+                    <Link href="https://www.instagram.com/ninhoinfantil/" target="_blank">
+                      <InstagramIcon className="relative size-4" />
+                      <span className="text-nowrap">Nos Acompanhe</span>
                     </Link>
                   </Button>
                 </div>
