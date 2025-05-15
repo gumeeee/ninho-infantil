@@ -1,3 +1,5 @@
+import About from "@/components/about";
+import FooterSection from "@/components/footer-one";
 import HeroSection from "@/components/hero-section";
 import { ContentCard } from "@/components/ui/content-card";
 
@@ -9,6 +11,9 @@ export default function Home() {
         <h1 className="text-3xl font-bold">Lançamentos!</h1>
         <ContentCard />
       </div>
+      <About />
+
+      <FooterSection />
     </>
   );
 }

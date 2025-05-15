@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 export function ContentCard() {
   return (
-    <div className="max-w-xl w-full group/card">
+    <div className="max-w-xl w-full group/card shadow-2xl dark:shadow-amber-500">
       <div
         className={cn(
           " cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-xs sm:max-w-xl mx-auto backgroundImage flex flex-col justify-between p-4",
