@@ -1,11 +1,9 @@
 "use client";
-import React from "react";
 import {
-  Modal,
-  ModalBody,
-  ModalContent,
-  ModalFooter,
-  ModalTrigger,
+    Modal,
+    ModalBody,
+    ModalContent,
+    ModalTrigger
 } from "./ui/animated-modal";
 
 import { motion } from "motion/react";

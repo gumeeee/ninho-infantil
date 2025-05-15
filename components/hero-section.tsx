@@ -1,12 +1,12 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { InstagramIcon, Menu, Rocket, X } from "lucide-react";
+import { InstagramIcon, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { ThemeToggle } from "./theme-toggle";
 import { SparklesText } from "./magicui/sparkles-text";
 import { TextAnimate } from "./magicui/text-animate";
+import { ThemeToggle } from "./theme-toggle";
 
 const menuItems = [
   { name: "Inicio", href: "#inicio" },
