@@ -14,10 +14,15 @@ const links = [
 
 export default function FooterSection() {
   return (
-    <footer className="bg-green-950 py-6">
+    <footer className="bg-gradient-to-b from-sky-50 to-sky-100 dark:from-green-950 dark:to-green-900 py-6">
       <div className="mx-auto max-w-5xl px-6">
         <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-          <Image src="/hero-section/nav-bar/logo.png" width={300} height={300} alt={"Logo Ninho Infantil"} />
+          <Image
+            src="/hero-section/nav-bar/logo.png"
+            width={300}
+            height={300}
+            alt={"Logo Ninho Infantil"}
+          />
         </Link>
 
         <div className="my-8 flex flex-wrap justify-center gap-6">

@@ -2,7 +2,6 @@
 
 import { BookOpen, HandHeart, Users } from "lucide-react";
 import { ActivityModal } from "./ativity-modal";
-import { AuroraText } from "./magicui/aurora-text";
 
 function About() {
   return (
@@ -10,8 +9,11 @@ function About() {
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 id="sobre" className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-              <AuroraText>Nossa Missão</AuroraText>
+            <h2
+              id="sobre"
+              className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl"
+            >
+              Nossa Missão
             </h2>
             <p className="mt-4 text-xl text-gray-400">
               No Ninho Infantil, acreditamos que toda criança merece um ambiente

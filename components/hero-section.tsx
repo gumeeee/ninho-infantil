@@ -4,7 +4,6 @@ import { InstagramIcon, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { SparklesText } from "./magicui/sparkles-text";
 import { TextAnimate } from "./magicui/text-animate";
 import { ThemeToggle } from "./theme-toggle";
 
@@ -24,7 +23,7 @@ export default function HeroSection() {
           className="fixed z-20 w-full border-b border-dashed bg-white backdrop-blur md:relative dark:bg-zinc-950/50 lg:dark:bg-transparent"
         >
           <div className="m-auto max-w-5xl px-6">
-            <div className="flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
+            <div className="flex flex-wrap items-center justify-between gap-6 lg:gap-0">
               <div className="flex w-full justify-between lg:w-auto">
                 <Link
                   href="/"
@@ -33,8 +32,8 @@ export default function HeroSection() {
                 >
                   <Image
                     src="/hero-section/nav-bar/logo.png"
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     alt="logo"
                   ></Image>
                 </Link>
@@ -78,8 +77,8 @@ export default function HeroSection() {
           <div className="relative pt-24">
             <div className="mx-auto max-w-7xl px-6">
               <div className="max-w-3xl text-center sm:mx-auto lg:mr-auto lg:mt-0 lg:w-4/5">
-                <h1 className="mt-8 text-balance text-4xl font-semibold md:text-5xl xl:text-6xl xl:[line-height:1.125]">
-                  <SparklesText>Ninho Infantil</SparklesText>
+                <h1 className="mt-10 text-balance text-4xl font-semibold md:text-5xl xl:text-6xl xl:[line-height:1.125]">
+                  Ninho Infantil
                 </h1>
                 <p className="mx-auto mt-8 max-w-2xl text-wrap text-lg">
                   <TextAnimate animation="slideUp" by="word">
