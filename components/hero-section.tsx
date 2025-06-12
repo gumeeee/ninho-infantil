@@ -75,37 +75,6 @@ export default function HeroSection() {
       <main className="overflow-hidden">
         <section>
           <div className="relative pt-24">
-            <div className="mx-auto max-w-7xl px-6">
-              <div className="max-w-3xl text-center sm:mx-auto lg:mr-auto lg:mt-0 lg:w-4/5">
-                <h1 className="mt-10 text-balance text-4xl font-semibold md:text-5xl xl:text-6xl xl:[line-height:1.125]">
-                  Ninho Infantil
-                </h1>
-                <p className="mx-auto mt-8 max-w-2xl text-wrap text-lg">
-                  <TextAnimate animation="slideUp" by="word">
-                    No Ninho Infantil, nossa missão é proporcionar experiências
-                    culturais enriquecedoras para as crianças. Estamos
-                    Comprometidos em criar um espaço seguro e interativo que
-                    estimule a criatividade e o aprendizado.
-                  </TextAnimate>
-                </p>
-
-                <div className="mt-8">
-                  <Button
-                    className="shadow-2xl shadow-blue-600"
-                    size="lg"
-                    asChild
-                  >
-                    <Link
-                      href="https://www.instagram.com/ninhoinfantil/"
-                      target="_blank"
-                    >
-                      <InstagramIcon className="relative size-4" />
-                      <span className="text-nowrap">Nos Acompanhe</span>
-                    </Link>
-                  </Button>
-                </div>
-              </div>
-            </div>
             <div className="relative mt-16">
               <div
                 aria-hidden
@@ -121,13 +90,31 @@ export default function HeroSection() {
                 />
               </div>
             </div>
-          </div>
-        </section>
-        <section className="bg-background relative z-10 pb-16">
-          <div className="m-auto max-w-5xl px-6">
-            <h2 className="text-center text-lg font-medium">
-              A Ong Para transformar a vida das crianças.
-            </h2>
+
+            <div className="mx-auto max-w-7xl px-6">
+              <div className="max-w-3xl text-center sm:mx-auto lg:mr-auto lg:mt-0 lg:w-4/5">
+                <p className="mx-auto mt-8 max-w-2xl text-wrap text-lg">
+                  <TextAnimate animation="slideUp" by="word">
+                    No Ninho Infantil, nossa missão é proporcionar experiências
+                    culturais enriquecedoras para as crianças. Estamos
+                    Comprometidos em criar um espaço seguro e interativo que
+                    estimule a criatividade e o aprendizado.
+                  </TextAnimate>
+                </p>
+
+                <div className="my-8">
+                  <Button size="lg" asChild>
+                    <Link
+                      href="https://www.instagram.com/ninhoinfantil/"
+                      target="_blank"
+                    >
+                      <InstagramIcon className="relative size-4" />
+                      <span className="text-nowrap">Nos Acompanhe</span>
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
