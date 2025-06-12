@@ -24,7 +24,7 @@ function About() {
           </div>
         </div>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-3">
+        <div className="mt-16 grid gap-8 md:grid-cols-2">
           <div className="flex flex-col items-center text-center">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-rose-100">
               <BookOpen className="h-8 w-8 text-rose-600" />
@@ -43,16 +43,6 @@ function About() {
             <p className="mt-2 text-gray-400">
               Construindo uma comunidade de apoio para mães e crianças se
               conectarem e crescerem juntas.
-            </p>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100">
-              <HandHeart className="h-8 w-8 text-green-600" />
-            </div>
-            <h3 className="mt-4 text-xl font-bold">Suporte</h3>
-            <p className="mt-2 text-gray-400">
-              Oferecendo recursos e serviços de apoio para ajudar as famílias a
-              superar desafios.
             </p>
           </div>
         </div>
