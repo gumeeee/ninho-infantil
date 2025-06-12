@@ -28,7 +28,7 @@ export default function HeroSection() {
                 <Link
                   href="/"
                   aria-label="home"
-                  className="flex items-center space-x-2"
+                  className="flex items-center space-x-2 dark:bg-white dark:rounded-full dark:p-2.5 lg:dark:p-0"
                 >
                   <Image
                     src="/hero-section/nav-bar/logo.png"
